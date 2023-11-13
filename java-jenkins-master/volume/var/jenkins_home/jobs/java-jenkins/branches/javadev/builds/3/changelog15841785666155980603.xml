@@ -1,0 +1,10 @@
+commit f91f1ef6648f7590d2a3ba37ad509d434241861f
+tree 2c1ffc0f7e949181f683982b1297dccc697c2d86
+parent e5889040579a65471e7e77530ccaedd8c3091228
+author Rhummboy <romainpanii@gmail.com> 2022-01-24 10:18:47 +0100
+committer Rhummboy <romainpanii@gmail.com> 2022-01-24 10:18:47 +0100
+
+    git ignore d'un fichier
+
+
+:100644 100644 26d33521af10bcc7fd8cea344038eaaeb78d0ef5 911b6d59fc9077edebc0d20143d72d5c6191458a M	.idea/.gitignore

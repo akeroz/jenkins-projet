@@ -1,0 +1,9 @@
+commit 5ed5234fb01bd381ca6160efb4afa68490d86838
+tree d723f039dc48f51cecd98fd64f2115bafd7e2f88
+parent 06b330caa8f832d8702dc5bc7a565b0c0057a486
+author Tom Wallyn <52431157+tomwallyn@users.noreply.github.com> 2022-01-18 20:19:37 +0100
+committer Tom Wallyn <52431157+tomwallyn@users.noreply.github.com> 2022-01-18 20:19:37 +0100
+
+    Added Jenkinsfile
+
+:100644 100644 bfc02b9e6cecbdacd9edb39f898e0d8613a2ca6e 9ca40c5a1125bd4712ba502566582cdb071d7812 M	Jenkinsfile

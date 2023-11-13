@@ -1,0 +1,15 @@
+commit 4b1e4230579e74c14c136b0233db1a9df6cbc686
+tree 4a138527b5acc55667c555e00b4c98606aeab661
+parent d231580adce157247c396f829d152ac1e903deb4
+author Tom Wallyn <tom.wallyn@leroymerlin.fr> 2022-01-25 09:52:20 +0100
+committer Tom Wallyn <tom.wallyn@leroymerlin.fr> 2022-01-25 09:52:20 +0100
+
+    feat(jenkins): run only master
+
+
+:100644 100644 05a665c14aeafcb0347cfc638d926b8e01c5159c 394ee9f91a845f0389dcca51b73819bb4b6b2796 M	Jenkinsfile
+:100644 100644 a1432de8135e6c56d0e86678b0bce06ad8b4bf16 57f3e63636d749214b43d163a2a317348a4899da M	target/classes/com/tomyoannromain/javajenkins/BooksLot.class
+:100644 100644 b11e96b69286100ac751b04327dcb6b4d303e59e 6dc41134964f8cb0f3542b4e7b944a626798f532 M	target/classes/com/tomyoannromain/javajenkins/Checkout.class
+:100644 100644 16ea0f0ff0d6f1280145e501011514380fe310bf 9c0723fc3123719a27ca322179bd818c4d95b74d M	target/classes/com/tomyoannromain/javajenkins/Main.class
+:100644 100644 dae46fe15e2dfe95f76c0b5495558b9d6374e374 e5b27b864b58153730a6f1a169ca2663396103de M	target/test-classes/com/tomyoannromain/javajenkins/RunCucumberTests.class
+:100644 100644 72de7ea9c1a596995892d17aeb0a501dab890fc8 736f1cdc9b9596a0eabb0100f42873918e843a6e M	target/test-classes/com/tomyoannromain/javajenkins/TestMain.class

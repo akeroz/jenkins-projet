@@ -1,0 +1,15 @@
+commit 8dd0af21e879690dbb7cd16b0a957071686133fc
+tree 7ce275d981fec35b8d18c7f4118d3efae12bab81
+parent e6132535c7b8f0de641f64e218d198c4efb182a5
+author RomainP01 <romain.pani@decathlon.com> 2022-01-18 10:41:53 +0100
+committer RomainP01 <romain.pani@decathlon.com> 2022-01-18 10:41:53 +0100
+
+    create class Checkout and method to check how many differents books in a shopping cart
+
+
+:000000 100644 0000000000000000000000000000000000000000 57205d66181a394f43dd730b186219059667d969 A	src/main/java/com/tomyoannromain/javajenkins/Checkout.java
+:100644 100644 2fdcc5b4b620cfbaa76f3006e37998aeb02bc711 bc0f0e3b58ec3a0510cfc124a0cb2b08ed634651 M	src/main/java/com/tomyoannromain/javajenkins/Main.java
+:100644 100644 881dec09eb3aab9d9adfd70b16cd7c252b29788b 4fab061eb0900443bd41b27439cb7a1ab4bce1b9 M	src/test/java/com/tomyoannromain/javajenkins/TestMain.java
+:000000 100644 0000000000000000000000000000000000000000 1b6dea708f1a08f753f2e1b90a776d8694836938 A	target/classes/com/tomyoannromain/javajenkins/Checkout.class
+:100644 100644 6e399b4bc8b68d7a3764def0f71bd9cc70bd053b ea0ad38509894160a86b952741ce3b4f241ec1be M	target/classes/com/tomyoannromain/javajenkins/Main.class
+:100644 100644 ed97881090dd74dd10b093b03ee3d0c7ce592668 e9b85dc467ca305b9f8291a1240d5bb2f081d6c7 M	target/test-classes/com/tomyoannromain/javajenkins/TestMain.class

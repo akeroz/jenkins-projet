@@ -1,0 +1,3 @@
+com\tomyoannromain\javajenkins\RunCucumberTests.class
+com\tomyoannromain\javajenkins\TestMain.class
+com\tomyoannromain\javajenkins\StepDefinitions.class

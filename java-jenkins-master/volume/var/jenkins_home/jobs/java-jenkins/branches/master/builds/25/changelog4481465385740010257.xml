@@ -1,0 +1,17 @@
+commit f77c6a0d138f42355a7655165906d851e9a84c45
+tree f2e01e12e9c7448765729fdcd39fb3f496156c2f
+parent 2feaab26098461ae9aad8705b7c59a0ffcefac7c
+author Tom Wallyn <tom.wallyn@leroymerlin.fr> 2022-01-24 10:30:16 +0100
+committer Tom Wallyn <tom.wallyn@leroymerlin.fr> 2022-01-24 10:30:16 +0100
+
+    fix(java): edit conf
+
+
+:100644 100644 bca5be2d8b075a82124de0d790aebca5591635b5 b7e18921d9d8a6da6f72c6941a77e3ebe0ebc107 M	.idea/compiler.xml
+:000000 100644 0000000000000000000000000000000000000000 797acea53eb091cf5b30518802c3073f544adeed A	.idea/runConfigurations.xml
+:100644 100644 4ae1fef761a8e1e2764a201afa78858b2fb5f316 b1b0cfed261ac13e1b110a4958640aaf24b9f20f M	target/java-jenkins-1.0-SNAPSHOT.jar
+:100644 100644 a8b3e079726538eb61a1b6c8acc73c5b7f9761c8 c9b0583b3eb43553e51a28d53133b54ef6e22b23 M	target/maven-archiver/pom.properties
+:100644 100644 b4ca2c3019b61b3e446f26d03b31298686a58a5e 579d84ebb29fcab29d0ca5ebfe8bebba33668c10 M	target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+:100644 100644 9d266cf09db193ebcca4f2baec6b7c1e3bca106e 583d2265252c2a5bdb58a1ac07bb862ddcaeb65e M	target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+:100644 100644 77a3d5c633061438212cc9daeaf0f310334caa04 4c81e6e80851e2ea28ce8216d912ee437f29c565 M	target/surefire-reports/TEST-com.tomyoannromain.javajenkins.TestMain.xml
+:100644 100644 aa2b1577277d187ab6eef2f2e4d79c081ac34b04 3bba0ea86aea71d3f6ad66a4795123d6d1bb3467 M	target/surefire-reports/com.tomyoannromain.javajenkins.TestMain.txt

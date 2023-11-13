@@ -1,0 +1,113 @@
+commit e5889040579a65471e7e77530ccaedd8c3091228
+tree 0df3993ad0197d100a3ab652d7654e49d5fd3401
+parent 1c82b42ca1f2ce566df3b20e0811f2d59f30e4f7
+author RomainP01 <romain.pani@decathlon.com> 2022-01-22 14:25:57 +0100
+committer RomainP01 <romain.pani@decathlon.com> 2022-01-22 14:25:57 +0100
+
+    java is finished
+
+
+:100644 100644 e5778c1fab7aaf2e9afaa62c91bde452293b37b9 144c989592b834d3e8d1cf8b17ec72d6675e2eaf M	src/main/java/com/tomyoannromain/javajenkins/BooksLot.java
+:100644 100644 7cecb14ce4d4a7ad0d4bb92a2f94d5dee1abe187 4705076e44bf69fae1dd973e3e5962c337475b7b M	src/main/java/com/tomyoannromain/javajenkins/Checkout.java
+:100644 100644 5051fbc7200895440dbd417cd4bda6926dc13cf5 7a8c41559d0476e3ceec084b95670e4ac309b18d M	src/main/java/com/tomyoannromain/javajenkins/Main.java
+:100644 000000 b9aa7a55f208c92298c12fa5623e5857da1ab309 0000000000000000000000000000000000000000 D	src/main/java/com/tomyoannromain/javajenkins/ShoppingCart.java
+:100644 100644 f66575611d2e58ecdf91dee0fda5bdde62458b69 6c93798cce026ab0e62e6353fe883ffd1457e050 M	src/test/java/com/tomyoannromain/javajenkins/TestMain.java
+:100644 100644 19901373cc9afe4bbac7849cb9b2c5fd91999194 a8a99cf600d8a3f759ac139d5e3fa1032fae6db1 M	target/classes/com/tomyoannromain/javajenkins/BooksLot.class
+:100644 100644 561eddd9a6144725df75060fb560eed6f3b04f92 9e40f3ddce15c299901636c844f55b18d6cc4ae0 M	target/classes/com/tomyoannromain/javajenkins/Checkout.class
+:100644 100644 33aee16eb7fdb49bc041217c16c9266780d84819 e480d1479de5aa850dc60e29a25347f09b6025ef M	target/classes/com/tomyoannromain/javajenkins/Main.class
+:100644 000000 cbda68eee493614aba08d100d067f55c3e119011 0000000000000000000000000000000000000000 D	target/classes/com/tomyoannromain/javajenkins/ShoppingCart.class
+:100644 100644 c89dc322f2bdd51f1663845920a60074d27d269a 0331ce2bd5ad02896694192fc8d926b8c3552aa4 M	target/test-classes/com/tomyoannromain/javajenkins/TestMain.class
+commit 1c82b42ca1f2ce566df3b20e0811f2d59f30e4f7
+tree e97420b2aef3bedee5530592524abba45a480083
+parent 9f665f9c8417271e11c5df1c5157b4ebaa1d299e
+author RomainP01 <romain.pani@decathlon.com> 2022-01-21 23:30:47 +0100
+committer RomainP01 <romain.pani@decathlon.com> 2022-01-21 23:30:47 +0100
+
+    rework of architecture to simplify the rest of the program to come
+
+
+:100644 100644 fc7e82bfd159a492af2fdec8e0598e515a368a7a e5778c1fab7aaf2e9afaa62c91bde452293b37b9 M	src/main/java/com/tomyoannromain/javajenkins/BooksLot.java
+:100644 100644 0a6389f51c01b02f737c8ad150386f5e8c46fcad 7cecb14ce4d4a7ad0d4bb92a2f94d5dee1abe187 M	src/main/java/com/tomyoannromain/javajenkins/Checkout.java
+:100644 100644 ab49bafecba37b3c6e537ac25d4a4a2d5277661e 5051fbc7200895440dbd417cd4bda6926dc13cf5 M	src/main/java/com/tomyoannromain/javajenkins/Main.java
+:100644 100644 471e17ea67eacb058cd8cd5e23a6a767175634a0 f66575611d2e58ecdf91dee0fda5bdde62458b69 M	src/test/java/com/tomyoannromain/javajenkins/TestMain.java
+:100644 100644 555715a2f8c073edbb65525b8c9aa4cc998728ce 19901373cc9afe4bbac7849cb9b2c5fd91999194 M	target/classes/com/tomyoannromain/javajenkins/BooksLot.class
+:100644 100644 c35d918ae540f835fbd627a68a99684b368e9e92 561eddd9a6144725df75060fb560eed6f3b04f92 M	target/classes/com/tomyoannromain/javajenkins/Checkout.class
+:100644 100644 f08595210d16a85ce3ce6cbc6d8a08834ccd2fe9 33aee16eb7fdb49bc041217c16c9266780d84819 M	target/classes/com/tomyoannromain/javajenkins/Main.class
+:100644 100644 bf85f0d47d0bb24a605f4fb192317e9e327597cf c89dc322f2bdd51f1663845920a60074d27d269a M	target/test-classes/com/tomyoannromain/javajenkins/TestMain.class
+commit 9f665f9c8417271e11c5df1c5157b4ebaa1d299e
+tree 384004429c6cc09b6d71a99516a34f9b1dddf5ce
+parent bfbd7610d27b649e65a891ffdbaea765af5b8245
+author RomainP01 <romain.pani@decathlon.com> 2022-01-21 13:52:13 +0100
+committer RomainP01 <romain.pani@decathlon.com> 2022-01-21 13:52:13 +0100
+
+    books lot list factory
+
+
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	.idea/sonarlint/issuestore/0/c/0c2c5c506cef0ed2d3ad2b7e45e97980b66f5520
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 152eaef71c028dc2bd0a79725e4786270cb7832a M	.idea/sonarlint/issuestore/index.pb
+:100644 100644 88be2408ba8ac0afd8d276c1322f74ec964d3c18 fc7e82bfd159a492af2fdec8e0598e515a368a7a M	src/main/java/com/tomyoannromain/javajenkins/BooksLot.java
+:100644 100644 d22e6eb596ea2933cfd8ef04b5799ad57ae31252 0a6389f51c01b02f737c8ad150386f5e8c46fcad M	src/main/java/com/tomyoannromain/javajenkins/Checkout.java
+:100644 100644 bbaf873d899f2d0b4724c1e793746fe82b8a927b ab49bafecba37b3c6e537ac25d4a4a2d5277661e M	src/main/java/com/tomyoannromain/javajenkins/Main.java
+:100644 100644 79f9720d44d3adc547317523cb2b8edb8fd43fcd b9aa7a55f208c92298c12fa5623e5857da1ab309 M	src/main/java/com/tomyoannromain/javajenkins/ShoppingCart.java
+:000000 100644 0000000000000000000000000000000000000000 555715a2f8c073edbb65525b8c9aa4cc998728ce A	target/classes/com/tomyoannromain/javajenkins/BooksLot.class
+:100644 100644 50325453022bf0026cda8958bc6825ef85392be0 c35d918ae540f835fbd627a68a99684b368e9e92 M	target/classes/com/tomyoannromain/javajenkins/Checkout.class
+:100644 100644 589276e35779da75a2a27bffea8c55e7e606368a f08595210d16a85ce3ce6cbc6d8a08834ccd2fe9 M	target/classes/com/tomyoannromain/javajenkins/Main.class
+:100644 100644 ba557e95c8f9694313436fb227268399341f26de cbda68eee493614aba08d100d067f55c3e119011 M	target/classes/com/tomyoannromain/javajenkins/ShoppingCart.class
+commit bfbd7610d27b649e65a891ffdbaea765af5b8245
+tree fe155b684a9fdee9aed7ab2581f639a6a6266e98
+parent a63c9777d5ec784334398c98c70abe57d3463b01
+author RomainP01 <romain.pani@decathlon.com> 2022-01-18 17:26:03 +0100
+committer RomainP01 <romain.pani@decathlon.com> 2022-01-18 17:26:03 +0100
+
+    bookslot wip
+
+
+:000000 100644 0000000000000000000000000000000000000000 88be2408ba8ac0afd8d276c1322f74ec964d3c18 A	src/main/java/com/tomyoannromain/javajenkins/BooksLot.java
+:100644 100644 dc34616b2f040aa153170786cb8857bc89237ac2 d22e6eb596ea2933cfd8ef04b5799ad57ae31252 M	src/main/java/com/tomyoannromain/javajenkins/Checkout.java
+commit a63c9777d5ec784334398c98c70abe57d3463b01
+tree 714405aa164cccb4506ad7da9de4daf21021b316
+parent 8dd0af21e879690dbb7cd16b0a957071686133fc
+author RomainP01 <romain.pani@decathlon.com> 2022-01-18 11:01:35 +0100
+committer RomainP01 <romain.pani@decathlon.com> 2022-01-18 11:01:35 +0100
+
+    refactoring shopping class getters and setters
+
+
+:100644 100644 57205d66181a394f43dd730b186219059667d969 dc34616b2f040aa153170786cb8857bc89237ac2 M	src/main/java/com/tomyoannromain/javajenkins/Checkout.java
+:100644 100644 bc0f0e3b58ec3a0510cfc124a0cb2b08ed634651 bbaf873d899f2d0b4724c1e793746fe82b8a927b M	src/main/java/com/tomyoannromain/javajenkins/Main.java
+:100644 100644 3aba5b782f1381e73ee3e2be99cfc17661128923 79f9720d44d3adc547317523cb2b8edb8fd43fcd M	src/main/java/com/tomyoannromain/javajenkins/ShoppingCart.java
+:100644 100644 4fab061eb0900443bd41b27439cb7a1ab4bce1b9 471e17ea67eacb058cd8cd5e23a6a767175634a0 M	src/test/java/com/tomyoannromain/javajenkins/TestMain.java
+:100644 100644 1b6dea708f1a08f753f2e1b90a776d8694836938 50325453022bf0026cda8958bc6825ef85392be0 M	target/classes/com/tomyoannromain/javajenkins/Checkout.class
+:100644 100644 ea0ad38509894160a86b952741ce3b4f241ec1be 589276e35779da75a2a27bffea8c55e7e606368a M	target/classes/com/tomyoannromain/javajenkins/Main.class
+:100644 100644 019c46b6aaf68939071257edc871cadd9af9b377 ba557e95c8f9694313436fb227268399341f26de M	target/classes/com/tomyoannromain/javajenkins/ShoppingCart.class
+:100644 100644 e9b85dc467ca305b9f8291a1240d5bb2f081d6c7 bf85f0d47d0bb24a605f4fb192317e9e327597cf M	target/test-classes/com/tomyoannromain/javajenkins/TestMain.class
+commit 8dd0af21e879690dbb7cd16b0a957071686133fc
+tree 7ce275d981fec35b8d18c7f4118d3efae12bab81
+parent e6132535c7b8f0de641f64e218d198c4efb182a5
+author RomainP01 <romain.pani@decathlon.com> 2022-01-18 10:41:53 +0100
+committer RomainP01 <romain.pani@decathlon.com> 2022-01-18 10:41:53 +0100
+
+    create class Checkout and method to check how many differents books in a shopping cart
+
+
+:000000 100644 0000000000000000000000000000000000000000 57205d66181a394f43dd730b186219059667d969 A	src/main/java/com/tomyoannromain/javajenkins/Checkout.java
+:100644 100644 2fdcc5b4b620cfbaa76f3006e37998aeb02bc711 bc0f0e3b58ec3a0510cfc124a0cb2b08ed634651 M	src/main/java/com/tomyoannromain/javajenkins/Main.java
+:100644 100644 881dec09eb3aab9d9adfd70b16cd7c252b29788b 4fab061eb0900443bd41b27439cb7a1ab4bce1b9 M	src/test/java/com/tomyoannromain/javajenkins/TestMain.java
+:000000 100644 0000000000000000000000000000000000000000 1b6dea708f1a08f753f2e1b90a776d8694836938 A	target/classes/com/tomyoannromain/javajenkins/Checkout.class
+:100644 100644 6e399b4bc8b68d7a3764def0f71bd9cc70bd053b ea0ad38509894160a86b952741ce3b4f241ec1be M	target/classes/com/tomyoannromain/javajenkins/Main.class
+:100644 100644 ed97881090dd74dd10b093b03ee3d0c7ce592668 e9b85dc467ca305b9f8291a1240d5bb2f081d6c7 M	target/test-classes/com/tomyoannromain/javajenkins/TestMain.class
+commit e6132535c7b8f0de641f64e218d198c4efb182a5
+tree cafbf46b6fa5f1f1b9c799d340f68093fd1f0c52
+parent 6ad452a9e7685435da61969d47fe3f92fc0e1c6a
+author RomainP01 <romain.pani@decathlon.com> 2022-01-18 09:08:56 +0100
+committer RomainP01 <romain.pani@decathlon.com> 2022-01-18 09:08:56 +0100
+
+    switch to classes
+
+
+:100644 000000 797acea53eb091cf5b30518802c3073f544adeed 0000000000000000000000000000000000000000 D	.idea/runConfigurations.xml
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	.idea/sonarlint/issuestore/index.pb
+:100644 100644 4823e2e4848ea9b61d41ca5055fa4be7ff5d704f 2fdcc5b4b620cfbaa76f3006e37998aeb02bc711 M	src/main/java/com/tomyoannromain/javajenkins/Main.java
+:000000 100644 0000000000000000000000000000000000000000 3aba5b782f1381e73ee3e2be99cfc17661128923 A	src/main/java/com/tomyoannromain/javajenkins/ShoppingCart.java
+:100644 100644 53ed77084d3469a612911057ba5e696e53dc8d1e 6e399b4bc8b68d7a3764def0f71bd9cc70bd053b M	target/classes/com/tomyoannromain/javajenkins/Main.class
+:000000 100644 0000000000000000000000000000000000000000 019c46b6aaf68939071257edc871cadd9af9b377 A	target/classes/com/tomyoannromain/javajenkins/ShoppingCart.class

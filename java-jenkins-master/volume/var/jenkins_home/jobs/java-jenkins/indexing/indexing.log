@@ -1,0 +1,57 @@
+Started by user [8mha:////4KL/cXkcglTn2jRD8H2NQ9UwECKpMKGaTVVOs81RsIGhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mtom.wallyn
+[Tue Jan 25 08:46:20 UTC 2022] Starting branch indexing...
+[8mha:////4CfZezTIEoj/pbkedicmrXHreAfWkV6gX4W+NtkLLqEFAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTdhCzZgwBJTMaMjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Examining [8mha:////4MIooVIJ6CIiyOaty6qjRlMbVmjrX0BK2Qx5gAHrL2MyAAAApx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVL8nPLU/MyanM0weZr5uVmpedmVcMAIz08fOuAAAA[0mtomwallyn/java-jenkins
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4DNQhwSloC42V7BSE3lV4bWvuejnCXiwlKLSLMrffOmhAAAAsB+LCAAAAAAAAP9dzLENwjAQBdAjiAxAiViBuIIClIoGpIiGCQycbCfO2bIvkKzBGtAwBOOwA4no+M3/zX/PD0xigLluLtFRdnYUncVs13kM1lB1cIyr/PHK7/6dQLKH1CIp1gWMm2AZpkUpr1JYSUocORhSmzbA7I/b/nrA4JdRAtD6fqQMS83s41oIZVg3p/5VC3b1TVrbkRj8RYlUGYqCA6KoZWQMX3ip6cq6AAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (cbd97e3e345c566b634e6c05df2bcec98e265bce → d231580adce157247c396f829d152ac1e903deb4)
+Scheduled build for branch: master
+
+    Checking branch [8mha:////4H1iGqej7b25bvLI/+qsFW2qfb81D70pYr1iw1puKB1NAAAAtx+LCAAAAAAAAP9dzLENwjAQBdAjCDoaSsQKxB0FkAoJgRTRMIEJp9iJc7bsCyRrsAY0DME47EAiOn7zf/Pf8wOj4GGu6kuwFGeWgjUY71uH3mgqj5ZxmTxeyd29I4gOMDZIOasUhrU3DNO0kFcpjKRcnNhryteNh9kft/11j8Evgwigcd2YMGwUswsrIXLNqj53r0qwrW7SmJZE7y8KpFJTEOwRRaYwKwO3Bne6+QKnH/iXwQAAAA==[0mcheckstyleFix
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: checkstyleFix
+
+    Checking branch [8mha:////4LsNbqyeYoP1rUMuTINFIgxNuEh1MbSRHEO1E4sJDqdOAAAAsx+LCAAAAAAAAP9dzLENwjAUBNBPEIiaErECcQcSKBUNSBENEzjBsp0435b9DckarAENQzAOO5CIjmvumnvPD0yCh6WKl2AxLS0Ga0R66JzwRmN9siTW2eOV3d07geQIUyNQksphHL0hmOcVv3JmOEp2Jq9R7loPiz9u/+sBg19GCUDr+jEj2CgiF7aMSU0qFv2rYWSbGzemQzb4q0pgrTEw8kKwMpaxKYT/As6r+qW8AAAA[0mcucumber
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: cucumber
+
+    Checking branch [8mha:////4CHEca/Ei83DwSOJTCXCl10JaOMFWhIyOIEuDQOsP06OAAAAsx+LCAAAAAAAAP9djLENwjAQRY8gqKgoESuQ6yiIUtGAFNEwgQHjOHHOln2BZA3WgIYhGIcdSAQVv/lfT/rv8YZR8DDP61OwFB8tBWtkvGmd9EZTubMsl+n9md7cK4JoC2MjSXGewbD2hmGaFeIi0AhSuGevSSWNh9mfbv3tXgbfDCKAxnVjwpDkzC6sEJXmvD50rwrZVldhTEvY+xeFpFJTQPZS4lkKxh/5AJk64o/AAAAA[0mfeat/jenkins
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: feat/jenkins
+
+    Checking branch [8mha:////4PsRfzYZ4i7ppE7ATT4qWeLrow2LLA2I2rdxG26M7sxcAAAAtR+LCAAAAAAAAP9djEEOwUAUhp8Ka7EUV9C3syBiYUPS2DjB4LUz7XjTzLzSXsM12DiE47gDUiv/5v/zJf93f0EveBjr6hgcxwfHwVmK101J3houtk5ourg9FtfyGUG0gb4lzkQn0K28FRgmuTortIoz3Ik3nM1rD6M/3artrwzadCKAuvyMgcBSi5RhhpgZ0dX+8zqhuNNFWdswfv2TnLgwHFA8EaakBH8kNZbeGI+9dcQAAAA=[0mfeat/jenkinsfile
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4PHmFWY+ttujG8+b00+4wGOo24a5XQyM/1oQVWc4msJCAAAAtB+LCAAAAAAAAP9dzDEOgkAQBdARo42dpfEKMp2FhspGE2LjCVYZYWGZJbuDwjW8hjYewuN4ByF0/ub/5r/XFybewTKrE285vFj21lC4bytyRnNxtELr6PmOHtUngOAAU0OcShbDuHZGYB7n6qbQKE7xJE5zum0cLP643dA9BkNGAUBTdWMmsMlEKr9BTLVk9bl7lSi2vCtjWsbeX+XEhWaP4ojwSkrQkUpK+gG7dScavwAAAA==[0mfeat/readme
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: feat/readme
+
+    Checking branch [8mha:////4CLu30PYPDJoNfPiZdMXojKay94nkPVE7NRV9WkC/kKtAAAAsB+LCAAAAAAAAP9djLENwjAURD9BQE+JWIG4SwFKRQNSRMMEhli2E+fbsn9CsgZrQMMQjMMOJKTjmjs96d7zA7PgYa3qPFiMrxaDNSI+dE54o7E8WRJJ+nild/eOIDrC3AiUpDKY1t4QLLOCN5wZjpKdyWuUu9bD6k+3H3uQwZhJBNC6fiwIEkXkwpYxqUnVl/5VMbLVjRvTIRv8m0JgqTEw8kL8SC6aL3IJcne7AAAA[0mjavadev
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: javadev (e5889040579a65471e7e77530ccaedd8c3091228 → f91f1ef6648f7590d2a3ba37ad509d434241861f)
+Scheduled build for branch: javadev
+
+  7 branches were processed
+
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+Finished examining tomwallyn/java-jenkins
+
+[Tue Jan 25 08:46:22 UTC 2022] Finished branch indexing. Indexing took 2.4 sec
+Finished: SUCCESS

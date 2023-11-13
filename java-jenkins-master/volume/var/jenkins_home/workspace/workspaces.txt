@@ -1,0 +1,16 @@
+Java-Project/javadev
+Java-Project_javadev
+Java-Project/master
+Java-Project_master
+java-jenkins/checkstyleFix
+java-jenkins_checkstyleFix
+java-jenkins/cucumber
+java-jenkins_cucumber
+java-jenkins/feat%2Fjenkins
+java-jenkins_feat_jenkins
+java-jenkins/feat%2Freadme
+java-jenkins_feat_readme
+java-jenkins/javadev
+java-jenkins_javadev
+java-jenkins/master
+java-jenkins_master

@@ -1,0 +1,27 @@
+Started by user [8mha:////4KL/cXkcglTn2jRD8H2NQ9UwECKpMKGaTVVOs81RsIGhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mtom.wallyn
+[8mha:////4OuD/lrZg+jmTMhWMVFI+gZyBCRmv43vIUxKPnhHRF3EAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRdlso0VwD5HLstjgAAAA==[0mConnecting to https://api.github.com with no credentials, anonymous access
+[8mha:////4OuD/lrZg+jmTMhWMVFI+gZyBCRmv43vIUxKPnhHRF3EAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRdlso0VwD5HLstjgAAAA==[0mJenkins is restricting GitHub API requests only when near or above the rate limit. To configure a different rate limiting strategy, such as having Jenkins attempt to evenly distribute GitHub API requests, go to "GitHub API usage" under "Configure System" in the Jenkins settings.
+[8mha:////4OuD/lrZg+jmTMhWMVFI+gZyBCRmv43vIUxKPnhHRF3EAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRdlso0VwD5HLstjgAAAA==[0mJenkins-Imposed API Limiter: Current quota for Github API usage has 14 remaining (1 over budget). Next quota of 60 in 17 min. Sleeping until reset.
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at org.jenkinsci.plugins.github_branch_source.ApiRateLimitChecker$LocalChecker.waitUntilRateLimit(ApiRateLimitChecker.java:325)
+	at org.jenkinsci.plugins.github_branch_source.ApiRateLimitChecker$LocalChecker.checkRateLimit(ApiRateLimitChecker.java:268)
+	at org.jenkinsci.plugins.github_branch_source.ApiRateLimitChecker$RateLimitCheckerAdapter.checkRateLimit(ApiRateLimitChecker.java:242)
+	at org.kohsuke.github.GitHubRateLimitChecker.checkRateLimit(GitHubRateLimitChecker.java:128)
+Caused: java.io.InterruptedIOException: sleep interrupted
+	at org.kohsuke.github.GitHubRateLimitChecker.checkRateLimit(GitHubRateLimitChecker.java:142)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:383)
+Caused: org.kohsuke.github.HttpException: Server returned HTTP response code: -1, message: 'null' for URL: https://api.github.com/repos/tomwallyn/java-jenkins
+	at org.kohsuke.github.GitHubClient.interpretApiError(GitHubClient.java:548)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:401)
+	at org.kohsuke.github.GitHubClient.sendRequest(GitHubClient.java:355)
+	at org.kohsuke.github.Requester.fetch(Requester.java:76)
+	at org.kohsuke.github.GHRepository.read(GHRepository.java:132)
+	at org.kohsuke.github.GitHub.getRepository(GitHub.java:673)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMSource.retrieve(GitHubSCMSource.java:1686)
+	at jenkins.scm.api.SCMSource.fetch(SCMSource.java:582)
+	at org.jenkinsci.plugins.workflow.multibranch.SCMBinder.create(SCMBinder.java:101)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:310)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:432)
+Finished: FAILURE

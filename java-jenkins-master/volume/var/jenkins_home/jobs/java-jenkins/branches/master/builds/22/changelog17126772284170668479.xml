@@ -1,0 +1,25 @@
+commit 924dfaed88b368d5442e0302878de70e82fa95f7
+tree 3115c96eff94b69d17d5f1e17a63452297803814
+parent 9aabba1c6bf9f2cb8a8e6184df40f8f4210aadfc
+author Tom Wallyn <52431157+tomwallyn@users.noreply.github.com> 2022-01-23 12:00:58 +0100
+committer Tom Wallyn <52431157+tomwallyn@users.noreply.github.com> 2022-01-23 12:00:58 +0100
+
+    Added Jenkinsfile
+
+:100644 100644 7355824d7f0ac9653704138bc19e645273dd4698 9d14c0072ec173cad3db99898d42e15c6141f144 M	Jenkinsfile
+commit 9aabba1c6bf9f2cb8a8e6184df40f8f4210aadfc
+tree 14d49bc5a3677df270bcb00c36bcd77ce808862a
+parent 1daf06cff8c7066d15b5a821b9aa93a1211351f2
+author Tom Wallyn <tom.wallyn@leroymerlin.fr> 2022-01-23 11:59:25 +0100
+committer Tom Wallyn <tom.wallyn@leroymerlin.fr> 2022-01-23 11:59:25 +0100
+
+    feat(nexus): add Nexus conf
+
+
+:100644 100644 9f32590990425438efea7cf12dd07fbdd20f39cc bca5be2d8b075a82124de0d790aebca5591635b5 M	.idea/compiler.xml
+:000000 100644 0000000000000000000000000000000000000000 abfc464b0668b38b121f830b18252a01e077663f A	.mvn/wrapper/wrapper.iml
+:100644 100644 86083305d8aaabadf1a16678c87447d429d13201 134bbcaf99b865e303cd5914a7be1415302be9fe M	pom.xml
+:100644 100644 b018a7e3eee25457567b6abda5001bbcdaf4c685 4ae1fef761a8e1e2764a201afa78858b2fb5f316 M	target/java-jenkins-1.0-SNAPSHOT.jar
+:100644 100644 78e6d47014b2a28bcf73d5a94ad41df987b6b7f8 a8b3e079726538eb61a1b6c8acc73c5b7f9761c8 M	target/maven-archiver/pom.properties
+:100644 100644 3e9d6ab08209ba999bd91b4c37361f775763c9a9 77a3d5c633061438212cc9daeaf0f310334caa04 M	target/surefire-reports/TEST-com.tomyoannromain.javajenkins.TestMain.xml
+:100644 100644 f1755f87613ef035a0ee8b41fd84574210c9ef26 aa2b1577277d187ab6eef2f2e4d79c081ac34b04 M	target/surefire-reports/com.tomyoannromain.javajenkins.TestMain.txt

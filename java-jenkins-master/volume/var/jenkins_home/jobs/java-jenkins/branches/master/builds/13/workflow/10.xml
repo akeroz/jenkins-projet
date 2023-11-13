@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@804.vba10a18a1476">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2648.va9433432b33c">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2648.va9433432b33c">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=master</string>
+            <string>GIT_COMMIT=5ed5234fb01bd381ca6160efb4afa68490d86838</string>
+            <string>GIT_LOCAL_BRANCH=master</string>
+            <string>GIT_PREVIOUS_COMMIT=06b330caa8f832d8702dc5bc7a565b0c0057a486</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=ac8afc3b15260a6bd8348336abe7e49c8494e3a3</string>
+            <string>GIT_URL=https://github.com/tomwallyn/java-jenkins.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1108.v57edf648f5d4">
+      <startTime>1642533591272</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

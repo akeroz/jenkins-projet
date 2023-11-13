@@ -1,0 +1,180 @@
+Branch indexing
+[8mha:////4LNJMEyXsJp9hKm+lRHg2QUSVFgsurbPmC1p4IGO03NDAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTdhCzb5wAW7U/LjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Obtained Jenkinsfile from cbd97e3e345c566b634e6c05df2bcec98e265bce
+[8mha:////4BQg3YhNJ9u7M4V7g8ldsn6WTA9K36sa3jbyGJgYIGP1AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4NiVzYEKyW4pZYwA8SQBqXYEQcMMM3IjrhjkfxzC0LcEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HxUDgdXNRB1tXRPEcSzkfQKCwbSLz+rDQ7PFCUszBFsAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/java-jenkins_feat_jenkins
+[8mha:////4FfyyiBQyeZHpubksXkTuUbYkdlBQuGKfpN6+84+3kVhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4GXP1PVTEwGJke/EGHxPmC1mVlD30AbHR6//5zQw25NPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4KvnPQZW7TIViy569YYzxGtwlFfumfXSQaHb9mBuP+vzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4PdhZrbOFSAMS+PXy0iBKFKEmSyJjVLeRg/LR0TTNXbFAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential github
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/tomwallyn/java-jenkins.git
+ > git init /var/jenkins_home/workspace/java-jenkins_feat_jenkins # timeout=10
+Fetching upstream changes from https://github.com/tomwallyn/java-jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --force --progress -- https://github.com/tomwallyn/java-jenkins.git +refs/heads/feat/jenkins:refs/remotes/origin/feat/jenkins # timeout=10
+ > git config remote.origin.url https://github.com/tomwallyn/java-jenkins.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/feat/jenkins:refs/remotes/origin/feat/jenkins # timeout=10
+Avoid second fetch
+Checking out Revision cbd97e3e345c566b634e6c05df2bcec98e265bce (feat/jenkins)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cbd97e3e345c566b634e6c05df2bcec98e265bce # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b feat/jenkins cbd97e3e345c566b634e6c05df2bcec98e265bce # timeout=10
+Commit message: "Added Jenkinsfile"
+First time build. Skipping changelog.
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+[8mha:////4BEO9fj/grufb+8QffHjUSb/H5kFU4jOiNNoeSW1TY3zAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Ow7ozOhxr/TYGH0jq5NJ7sPxSQj5vJJjGmjyvqs0HE6AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4B9GB1wq6E3eWfQ8u2ttY7hGvNsNtGVLq8py1fJPFjAgAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4E+H72J0IxN6DK79Ry5drnbqEGooDcIup4Af0DpUDF+hAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4D2uvgnFWDKYrU9ewOUQa1Iz2acyLf890MLWCKT7UZO1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4CpXcGyluFKBRpfGf1XxLWZQ4i5AcB7QJnM5JDJ1MNSiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (check)
+[8mha:////4LQh6NqKVgY1rwLyB1FFttprHMzu2Z4Y68oPygarIpxfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] parallel
+[8mha:////4GtR5xcDzvqsVb9QRG4heK+prkEfUWqHVPGId0me7+jlAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSIgFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAA74mxxwgAAAA==[0m[Pipeline] { (Branch: pmd)
+[8mha:////4M5q75//TsElrQDPIaFgHrjn/1JCrxr6EafAu+Z56f/DAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSEgMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOeMTC6wgAAAA==[0m[Pipeline] { (Branch: checkstyle)
+[8mha:////4KUEC8R1mhmyqS6U04iY314ZJdbjbuez6udmr9J8GV1mAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULAgJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACKOgoTwgAAAA==[0m[Pipeline] stage
+[8mha:////4BjMerf6e0LnNIma1CTGSn4YIzD5LVpytG3+FJDDYsdjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (pmd)
+[8mha:////4GK0SfHOo8FK79dwfrTfXUVJc06iQ7xNavfkiEgH+YNvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQG6fT8PwgAAAA==[0m[Pipeline] stage
+[8mha:////4AFylbcXavCso+5q4+TL3OC9WpuD/CDoyZ/7NHD0q4HvAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (checkstyle)
+[8mha:////4OQWSZ1JE6y+RYzdOxewMWjsprpfNXxhCqAdTUI9c4V0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPeHXHXtP5vywgS+AAAA[0m[Pipeline] sh
+[8mha:////4OBSKrjYV66VtmErdsF4vBzQQVZS2q4TY8XtZg9S6uzyAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] sh
++ ./mvnw pmd:check
++ ./mvnw checkstyle:check
+[INFO] Scanning for projects...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:java-jenkins >----------------------
+[INFO] Building java-jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> maven-pmd-plugin:3.15.0:check (default-cli) > :pmd @ java-jenkins >>>
+[INFO] 
+[INFO] --- maven-pmd-plugin:3.15.0:pmd (pmd) @ java-jenkins ---
+[INFO] 
+[INFO] ----------------------< org.example:java-jenkins >----------------------
+[INFO] Building java-jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.2:check (default-cli) @ java-jenkins ---
+[WARNING] Old version of checkstyle detected. Consider updating to >= v8.30
+[WARNING] For more information see: https://maven.apache.org/plugins/maven-checkstyle-plugin/examples/upgrading-checkstyle.html
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] PMD version: 6.38.0
+[INFO] There are 34 errors reported by Checkstyle 8.29 with sun_checks.xml ruleset.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[1] (javadoc) JavadocPackage: Missing package-info.java file.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[3,8] (imports) UnusedImports: Unused import - java.lang.reflect.Array.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[5,8] (imports) UnusedImports: Unused import - java.util.List.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[7,1] (design) HideUtilityClassConstructor: Utility classes should not have a public or default constructor.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[8,5] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[8,29] (misc) FinalParameters: Parameter args should be final.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[11,24] (coding) MagicNumber: '5' is a magic number.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[11,25] (whitespace) WhitespaceAfter: ',' is not followed by whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[11,26] (coding) MagicNumber: '3' is a magic number.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[11,27] (whitespace) WhitespaceAfter: ',' is not followed by whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[15,5] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[15,58] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[19] (sizes) LineLength: Line is longer than 80 characters (found 87).
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[19,5] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[19,55] (misc) FinalParameters: Parameter shoppingCart should be final.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[19,87] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[20,9] (whitespace) WhitespaceAround: 'for' is not followed by whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[20,18] (whitespace) WhitespaceAround: '=' is not followed by whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[20,18] (whitespace) WhitespaceAround: '=' is not preceded with whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[20,20] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[20,22] (whitespace) WhitespaceAround: '<' is not followed by whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[20,22] (whitespace) WhitespaceAround: '<' is not preceded with whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[20,23] (coding) MagicNumber: '5' is a magic number.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[20,24] (whitespace) WhitespaceAfter: ';' is not followed by whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[20,29] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[21,31] (whitespace) WhitespaceAfter: ',' is not followed by whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[26] (sizes) LineLength: Line is longer than 80 characters (found 113).
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[26,5] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[26,39] (misc) FinalParameters: Parameter numberOfBooks should be final.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[26,58] (misc) FinalParameters: Parameter harryPotterVolume should be final.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[26,81] (misc) FinalParameters: Parameter shoppingCart should be final.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[26,113] (whitespace) WhitespaceAround: '{' is not preceded with whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[27,43] (whitespace) WhitespaceAround: '-' is not followed by whitespace.
+[ERROR] src/main/java/com/tomyoannromain/javajenkins/Main.java:[27,43] (whitespace) WhitespaceAround: '-' is not preceded with whitespace.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.169 s
+[INFO] Finished at: 2022-01-25T08:46:37Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:3.1.2:check (default-cli) on project java-jenkins: You have 34 Checkstyle violations. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[8mha:////4EJglaKTgSsJ5YxOSu40wuDDfB2Bc13trWBUQgNGqWFPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BmecueC+AAAA[0m[Pipeline] }
+[8mha:////4BKjuJJsrtOiia6hJgyjssNF05nLpWaHaOsOI9mJtfvWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN1R/4ly+AAAA[0m[Pipeline] // stage
+[8mha:////4OeyDQA+qvDyC9FQxtet05Hrg6Xf76JJwvdEaq2g8HeWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+ayz9vvgAAAA==[0m[Pipeline] }
+Failed in branch checkstyle
+[INFO] 
+[INFO] <<< maven-pmd-plugin:3.15.0:check (default-cli) < :pmd @ java-jenkins <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-pmd-plugin:3.15.0:check (default-cli) @ java-jenkins ---
+[INFO] PMD version: 6.38.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.689 s
+[INFO] Finished at: 2022-01-25T08:46:39Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-pmd-plugin:3.15.0:check (default-cli) on project java-jenkins: You have 2 PMD violations. For more details see: /var/jenkins_home/workspace/java-jenkins_feat_jenkins/target/pmd.xml -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[8mha:////4GtRieLt9AU70tzHMCG9F7DF6blSJJPvVdcEmsQpyS8HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw84NdtDvgAAAA==[0m[Pipeline] }
+[8mha:////4G7dBIkq1B5344zpUgyN6K6aW+CFeLFWnesge3pYHjZ8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqCIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QF7t4rFvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OaF9DRMwmBcIB+jAsqRtkrZ9U+DCKpiUbWY1UQqP6OHAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8A2Ulu6b4AAAA=[0m[Pipeline] }
+Failed in branch pmd
+[8mha:////4MRJkfPbc1vGDMEktl6iqBqEUWaQp0JGB0/75QzsD2bIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPolyGIa+AAAA[0m[Pipeline] // parallel
+[8mha:////4IbgwgOdv0bm0AP9IXpTpXHU7ZBVOxouCFQwpjDdBblDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRlBJR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB480INO+AAAA[0m[Pipeline] }
+[8mha:////4McTyflexY1PI4gK/e5mAg4+BZ1puYfLAcxrBBBklNPvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUufb1B7d2syK+AAAA[0m[Pipeline] // stage
+[8mha:////4NEy4g3wrSsB2Fdnd/CCnpu4AZSbr/dewZY+w90Coe8tAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUVUfExBp14QQhDSFp9H+bpLQTJ+Jq3IFAJSY8WLYl6z1fUMYARwqGO429xagsH/xkcuIzhf7qaeaOLlwRRvKat3puqdOntbaUNKwqGGwEbDUqT9GiSbATTt5l5SWa6pxC3g4CmO1GeEAhMjnJkL5lCbC/TV0k/HH+AmAZErC6ztY0n2f5BuPOacfCAAAA[0m[Pipeline] stage
+[8mha:////4H3Rytgea/v+AsT16R1K7M8Fsvs6cCIqhsD+/hEeKsrHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (test)
+Stage "test" skipped due to earlier failure(s)
+[8mha:////4L3gbDNG72gLHSsh72qTEncVj64+vsoVKTlbUPl/B0CSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3BriB4+S+AAAA[0m[Pipeline] }
+[8mha:////4J3dC2WzoYVC2PINM/3DZR9uOm33BWmSO9j7g0btxfHrAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZMbGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DbVmE/y+AAAA[0m[Pipeline] // stage
+[8mha:////4Mwi1EXKuAiZTrC1X4xd4Ps6xrsXw/r8+scNHx7AY7esAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFQMDYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7T/P6g31jPhcwgAAAA==[0m[Pipeline] stage
+[8mha:////4A08WuWNAwNPp+FBEDFuXS87LwYvrq2GSeyNNfgflxFiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] { (sonar)
+Stage "sonar" skipped due to earlier failure(s)
+[8mha:////4MBcO2J6HHALk6xCLoPLj21C3Xj2ZsankI3fu3UTGtE0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+gNl5q+AAAA[0m[Pipeline] }
+[8mha:////4PSCA1cIlsayvm8hJw8U1BCovYpcxm7V8uGgjrztbzvTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAP3+A6L4AAAA=[0m[Pipeline] // stage
+[8mha:////4BylK48yCSkMGH3jNbWHAq1x+RtkSMnaGtL62RAzFsoUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUkdgQE2uUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oEkRDhQd6yz2HpP2bAijK4lNFPtLoIl1dGaaMFGwTNpJkrHHpUrKFhZVNawErC3qQMmjy7ARnbqrNih07SnHsu0F1N7c4AGVKOSsYv6WOcL2OppE+OP8BcA8ZKg5L7bjn2fzBmZRBk/CAAAA[0m[Pipeline] stage
+[8mha:////4DE/TVjlHu4r0gup4lgIur1ujT1NxLld//UC2VtcwlPWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] { (nexus deploy)
+Stage "nexus deploy" skipped due to earlier failure(s)
+[8mha:////4IRQLppcjnU+hR7gIQ3XUx5/KetbmGr98itPpEuzShefAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BtlvP1G+AAAA[0m[Pipeline] }
+[8mha:////4KsQqoC5X1jMwOMMT2mXe3dFHV9w1f9BRw13SZmXvzJKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIipHSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BtsOM9W+AAAA[0m[Pipeline] // stage
+[8mha:////4PHgOpnfQgijeFrbn5ATyp7AgYCOrYyMgyae7nsD7GjyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSFAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QE7KRhjvgAAAA==[0m[Pipeline] }
+[8mha:////4P6AqBhGPHdx/JkMaENDazaFIe5cuTat1rq+G/XcB2tBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w8Da4uSvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LhtWN/mMvXUzRJJX8mzfv1pZ3LaTx4pXa0G+ihPgZJPAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsJA7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHJmaoML0AAAA=[0m[Pipeline] }
+[8mha:////4GpL0wCKpSBF95esm5QdakYmIzANga6gWRJf7eLQCPMnAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AFRknCy9AAAA[0m[Pipeline] // node
+[8mha:////4GKK/ckHfECyBGVKPkULZOoUE2L1iM6oqI7IY3FPkBxWAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREA1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AHJ9+2a9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+
+GitHub has been notified of this commit’s build result
+
+Finished: FAILURE

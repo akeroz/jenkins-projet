@@ -1,0 +1,669 @@
+Branch indexing
+[8mha:////4JrEFB4HePLqsV+uhNw/KUlqJnthx9v0BzYj7KGHD7+vAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTdhCzbXwDPgUmojgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Obtained Jenkinsfile from d231580adce157247c396f829d152ac1e903deb4
+[8mha:////4BQg3YhNJ9u7M4V7g8ldsn6WTA9K36sa3jbyGJgYIGP1AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4NiVzYEKyW4pZYwA8SQBqXYEQcMMM3IjrhjkfxzC0LcEAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HxUDgdXNRB1tXRPEcSzkfQKCwbSLz+rDQ7PFCUszBFsAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/java-jenkins_master
+[8mha:////4FfyyiBQyeZHpubksXkTuUbYkdlBQuGKfpN6+84+3kVhAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4GXP1PVTEwGJke/EGHxPmC1mVlD30AbHR6//5zQw25NPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4KvnPQZW7TIViy569YYzxGtwlFfumfXSQaHb9mBuP+vzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4PdhZrbOFSAMS+PXy0iBKFKEmSyJjVLeRg/LR0TTNXbFAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential github
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/java-jenkins_master/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/tomwallyn/java-jenkins.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/tomwallyn/java-jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --force --progress -- https://github.com/tomwallyn/java-jenkins.git +refs/heads/master:refs/remotes/origin/master # timeout=10
+Checking out Revision d231580adce157247c396f829d152ac1e903deb4 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d231580adce157247c396f829d152ac1e903deb4 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master d231580adce157247c396f829d152ac1e903deb4 # timeout=10
+Commit message: "Added Jenkinsfile"
+ > git rev-list --no-walk 47464341eb22cabcad4e5a747fad38e0535a3924 # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+[8mha:////4BEO9fj/grufb+8QffHjUSb/H5kFU4jOiNNoeSW1TY3zAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Ow7ozOhxr/TYGH0jq5NJ7sPxSQj5vJJjGmjyvqs0HE6AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4B9GB1wq6E3eWfQ8u2ttY7hGvNsNtGVLq8py1fJPFjAgAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4E+H72J0IxN6DK79Ry5drnbqEGooDcIup4Af0DpUDF+hAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4D2uvgnFWDKYrU9ewOUQa1Iz2acyLf890MLWCKT7UZO1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4CpXcGyluFKBRpfGf1XxLWZQ4i5AcB7QJnM5JDJ1MNSiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (check)
+[8mha:////4LQh6NqKVgY1rwLyB1FFttprHMzu2Z4Y68oPygarIpxfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] parallel
+[8mha:////4GtR5xcDzvqsVb9QRG4heK+prkEfUWqHVPGId0me7+jlAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSIgFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAA74mxxwgAAAA==[0m[Pipeline] { (Branch: pmd)
+[8mha:////4M5q75//TsElrQDPIaFgHrjn/1JCrxr6EafAu+Z56f/DAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSEgMiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOeMTC6wgAAAA==[0m[Pipeline] { (Branch: checkstyle)
+[8mha:////4KUEC8R1mhmyqS6U04iY314ZJdbjbuez6udmr9J8GV1mAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULAgJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACKOgoTwgAAAA==[0m[Pipeline] stage
+[8mha:////4BjMerf6e0LnNIma1CTGSn4YIzD5LVpytG3+FJDDYsdjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (pmd)
+[8mha:////4GK0SfHOo8FK79dwfrTfXUVJc06iQ7xNavfkiEgH+YNvAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQG6fT8PwgAAAA==[0m[Pipeline] stage
+[8mha:////4AFylbcXavCso+5q4+TL3OC9WpuD/CDoyZ/7NHD0q4HvAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (checkstyle)
+[8mha:////4OQWSZ1JE6y+RYzdOxewMWjsprpfNXxhCqAdTUI9c4V0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPeHXHXtP5vywgS+AAAA[0m[Pipeline] sh
+[8mha:////4OBSKrjYV66VtmErdsF4vBzQQVZS2q4TY8XtZg9S6uzyAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] sh
++ ./mvnw pmd:check
++ ./mvnw checkstyle:check
+[INFO] Scanning for projects...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:java-jenkins >----------------------
+[INFO] Building java-jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> maven-pmd-plugin:3.15.0:check (default-cli) > :pmd @ java-jenkins >>>
+[INFO] 
+[INFO] ----------------------< org.example:java-jenkins >----------------------
+[INFO] Building java-jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.2:check (default-cli) @ java-jenkins ---
+[INFO] 
+[INFO] --- maven-pmd-plugin:3.15.0:pmd (pmd) @ java-jenkins ---
+[WARNING] Old version of checkstyle detected. Consider updating to >= v8.30
+[WARNING] For more information see: https://maven.apache.org/plugins/maven-checkstyle-plugin/examples/upgrading-checkstyle.html
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] PMD version: 6.38.0
+[INFO] You have 0 Checkstyle violations.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.946 s
+[INFO] Finished at: 2022-01-25T08:46:45Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4EJglaKTgSsJ5YxOSu40wuDDfB2Bc13trWBUQgNGqWFPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BmecueC+AAAA[0m[Pipeline] }
+[8mha:////4BKjuJJsrtOiia6hJgyjssNF05nLpWaHaOsOI9mJtfvWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN1R/4ly+AAAA[0m[Pipeline] // stage
+[8mha:////4OeyDQA+qvDyC9FQxtet05Hrg6Xf76JJwvdEaq2g8HeWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+ayz9vvgAAAA==[0m[Pipeline] }
+[INFO] 
+[INFO] <<< maven-pmd-plugin:3.15.0:check (default-cli) < :pmd @ java-jenkins <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-pmd-plugin:3.15.0:check (default-cli) @ java-jenkins ---
+[INFO] PMD version: 6.38.0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.278 s
+[INFO] Finished at: 2022-01-25T08:46:47Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4GtRieLt9AU70tzHMCG9F7DF6blSJJPvVdcEmsQpyS8HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw84NdtDvgAAAA==[0m[Pipeline] }
+[8mha:////4G7dBIkq1B5344zpUgyN6K6aW+CFeLFWnesge3pYHjZ8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqCIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QF7t4rFvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OaF9DRMwmBcIB+jAsqRtkrZ9U+DCKpiUbWY1UQqP6OHAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8A2Ulu6b4AAAA=[0m[Pipeline] }
+[8mha:////4MRJkfPbc1vGDMEktl6iqBqEUWaQp0JGB0/75QzsD2bIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPolyGIa+AAAA[0m[Pipeline] // parallel
+[8mha:////4IbgwgOdv0bm0AP9IXpTpXHU7ZBVOxouCFQwpjDdBblDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRlBJR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB480INO+AAAA[0m[Pipeline] }
+[8mha:////4McTyflexY1PI4gK/e5mAg4+BZ1puYfLAcxrBBBklNPvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUufb1B7d2syK+AAAA[0m[Pipeline] // stage
+[8mha:////4NEy4g3wrSsB2Fdnd/CCnpu4AZSbr/dewZY+w90Coe8tAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUVUfExBp14QQhDSFp9H+bpLQTJ+Jq3IFAJSY8WLYl6z1fUMYARwqGO429xagsH/xkcuIzhf7qaeaOLlwRRvKat3puqdOntbaUNKwqGGwEbDUqT9GiSbATTt5l5SWa6pxC3g4CmO1GeEAhMjnJkL5lCbC/TV0k/HH+AmAZErC6ztY0n2f5BuPOacfCAAAA[0m[Pipeline] stage
+[8mha:////4H3Rytgea/v+AsT16R1K7M8Fsvs6cCIqhsD+/hEeKsrHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (test)
+[8mha:////4Ibb6fngXyG7KX6LtgzJUf77/ag2q0Qnq3kfgLCthaCzAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] parallel
+[8mha:////4LSmRiO90LzHyup9qCb10RCDJiLKNXBSDLvNTHqd2qogAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIgBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADoYRoAwgAAAA==[0m[Pipeline] { (Branch: unit test)
+[8mha:////4IASA8c5U/ZRCckFfSqPvmnmYS+f2E8GZOEPihXGALpGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QEhIiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gM900zxwgAAAA==[0m[Pipeline] { (Branch: cucumber test)
+[8mha:////4DDH61KXjbEc5Aq2wtW7uovvBJYtvR3w8BzotPcogGJlAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YEAIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfABZuXxiwgAAAA==[0m[Pipeline] stage
+[8mha:////4F/04x4Clsb+IIGWwQZZiMZBxREtZJVTO6KiI99LUpEMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] { (unit test)
+[8mha:////4IJf/YFO0JKwgnu9yFKSSXIwXwgeJRz4ssBma/JZRjxZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCAYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7T7bbvN5Vm988XDYwgAAAA==[0m[Pipeline] stage
+[8mha:////4DE/TVjlHu4r0gup4lgIur1ujT1NxLld//UC2VtcwlPWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] { (cucumber test)
+[8mha:////4J+FJGsX+Wasz1KW+mdN9/lAVrfQcN9kFxIqHZMgfa3NAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBt/0LMS+AAAA[0m[Pipeline] sh
+[8mha:////4DDhHG1WTv2iMN6J9oQoMeyESCL5pkt2fy2JbIb9TpboAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BjFz8hy+AAAA[0m[Pipeline] sh
++ ./mvnw -Dtest=TestMain test
++ ./mvnw -Dtest=RunCucumberTests test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:java-jenkins >----------------------
+[INFO] Building java-jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:java-jenkins >----------------------
+[INFO] Building java-jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ java-jenkins ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ java-jenkins ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/java-jenkins_master/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ java-jenkins ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/java-jenkins_master/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ java-jenkins ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/java-jenkins_master/target/classes
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/java-jenkins_master/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ java-jenkins ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ java-jenkins ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ java-jenkins ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ java-jenkins ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ java-jenkins ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/java-jenkins_master/target/test-classes
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ java-jenkins ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.tomyoannromain.javajenkins.TestMain
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s - in com.tomyoannromain.javajenkins.TestMain
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.679 s
+[INFO] Finished at: 2022-01-25T08:46:56Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4CesUNBHGhHQ9X9hr9ybmOe1gXoIglWSo1J30LAqxJHaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BujtaGm+AAAA[0m[Pipeline] }
+[8mha:////4FMmae5N6jIN+6CQ4gqsXNBJqtpPiGkh+ggrWfSl5zgrAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAJbFh2b4AAAA=[0m[Pipeline] // stage
+[8mha:////4D+tpaplGACSGbQTcNVbYYgfZE0IPV6ZgiMJ/tJgc8EdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgJQCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w+HT4X1vgAAAA==[0m[Pipeline] }
+[INFO] Running com.tomyoannromain.javajenkins.RunCucumberTests
+
+Scenario Outline: The shopping cart value is or is not equals to 30 ? # features/PriceOfABooksLotOfFiveBooks.feature:4
+  Given the shopping cart contains 5 differents books                 # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                        # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 30 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 25.60 ? # features/PriceOfABooksLotOfFourBooks.feature:4
+  Given the shopping cart contains 4 differents books                    # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                           # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 25.60 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 8 ? # features/PriceOfABooksLotOfOneBook.feature:4
+  Given the shopping cart contains 1 differents books                # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 8 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 21.60 ? # features/PriceOfABooksLotOfThreeBooks.feature:4
+  Given the shopping cart contains 3 differents books                    # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                           # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 21.60 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 15.20 ? # features/PriceOfABooksLotOfTwoBooks.feature:4
+  Given the shopping cart contains 2 differents books                    # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                           # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 15.20 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:10
+  Given the shopping cart contains 2 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 16 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:11
+  Given the shopping cart contains 3 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 24 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:12
+  Given the shopping cart contains 4 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 32 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:13
+  Given the shopping cart contains 5 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 40 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario: Price of a book        # features/PriceOfOneBook.feature:4
+  Given One book                 # com.tomyoannromain.javajenkins.StepDefinitions.oneBook()
+  Then The book price is 8 euros # com.tomyoannromain.javajenkins.StepDefinitions.theBookPriceIsEuros(int)
+
+Scenario Outline: The price of a shopping cart containing 2 Harry Potter 1,                                                    # features/PriceOfShoppingCartOf8Books.feature:4
+  Given the shopping cart contains 2 Harry Potter 1, 2 Harry Potter 2, 2 Harry Potter 3, 1 Harry Potter 4 and 1 Harry Potter 5 # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsHarryPotterHarryPotterHarryPotterHarryPotterAndHarryPotter(int,int,int,int,int,int,int,int,int,int)
+  When I ask what the price is                                                                                                 # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 51.20 euros                                                                          # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.264 s - in com.tomyoannromain.javajenkins.RunCucumberTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.743 s
+[INFO] Finished at: 2022-01-25T08:46:57Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4OwD5D8va5eA5BWdQ892VRHn5+zZenHsWZcX4hJlvu4sAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g0an/g7vgAAAA==[0m[Pipeline] }
+[8mha:////4OzQmK1M//cc1XoxIzAlBQaI7KdYfWEkxiwbEk7EkY4QAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEFHa1pvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IQPyEY6+QTLO/sBIOOqPDI3Lf1qaeA7Mk+9fPOkbZnjAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDGmlI3r4AAAA=[0m[Pipeline] }
+[8mha:////4HFLL6sVJJ0xKgVZQqtDp8pN5y4CmlVzSC5Z2l6NIkv+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihFIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QECxqVrvgAAAA==[0m[Pipeline] // parallel
+[8mha:////4IDHMYZ5txeeMQauzfcwdIW5qZeuLbW8BDZV7t0Luxl8AAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIj8alQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrl2+w86hDaavgAAAA==[0m[Pipeline] }
+[8mha:////4JveU20sTEHxmy03J0jtyernt5J3vph0HgsPVVHSo85NAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpIipERWu54QUmMcaOdWfsC0nFi/gaf8AiEhVbrHa2mdcb1jnBkZIV3uDgMHdOxDDassREabgGmoSni+gIMwUjlJkU9ea0oCI2sKSqYSVhY7ALlB1ahq30+qGboNE2Z07lO0ioXX+HJ1SymFkn/sKcYHcb+0z48/wVwBwjQ71vS7XtBzzCDs++AAAA[0m[Pipeline] // stage
+[8mha:////4CqhH0iSUFI7uZljBiwMt9mcmHfr53rtsd8w15j+viWTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUlWBCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmz73edZvQFhy7y5wgAAAA==[0m[Pipeline] stage
+[8mha:////4BMStmJz/CAIaac5808nWihn4q9WG57K86mmBywRDUFGAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (sonar)
+[8mha:////4A3hwsu5DMhBCqbE+Xj9Z8hHPJiLF/9wluZJV+1lUwuYAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxcaxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NlEULJr4AAAA=[0m[Pipeline] sh
++ ./mvnw clean verify sonar:sonar -Dsonar.projectKey=JenkinsTP -Dsonar.host.url=http://sonarqube:9000 -Dsonar.login=a7f4a2a8334b74aa215f39b816af97290f55026b
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:java-jenkins >----------------------
+[INFO] Building java-jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ java-jenkins ---
+[INFO] Deleting /var/jenkins_home/workspace/java-jenkins_master/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ java-jenkins ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/java-jenkins_master/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ java-jenkins ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/java-jenkins_master/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ java-jenkins ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ java-jenkins ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/java-jenkins_master/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ java-jenkins ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.tomyoannromain.javajenkins.TestMain
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 s - in com.tomyoannromain.javajenkins.TestMain
+[INFO] Running com.tomyoannromain.javajenkins.RunCucumberTests
+
+Scenario Outline: The shopping cart value is or is not equals to 30 ? # features/PriceOfABooksLotOfFiveBooks.feature:4
+  Given the shopping cart contains 5 differents books                 # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                        # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 30 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 25.60 ? # features/PriceOfABooksLotOfFourBooks.feature:4
+  Given the shopping cart contains 4 differents books                    # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                           # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 25.60 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 8 ? # features/PriceOfABooksLotOfOneBook.feature:4
+  Given the shopping cart contains 1 differents books                # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 8 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 21.60 ? # features/PriceOfABooksLotOfThreeBooks.feature:4
+  Given the shopping cart contains 3 differents books                    # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                           # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 21.60 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 15.20 ? # features/PriceOfABooksLotOfTwoBooks.feature:4
+  Given the shopping cart contains 2 differents books                    # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                           # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 15.20 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:10
+  Given the shopping cart contains 2 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 16 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:11
+  Given the shopping cart contains 3 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 24 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:12
+  Given the shopping cart contains 4 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 32 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:13
+  Given the shopping cart contains 5 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 40 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario: Price of a book        # features/PriceOfOneBook.feature:4
+  Given One book                 # com.tomyoannromain.javajenkins.StepDefinitions.oneBook()
+  Then The book price is 8 euros # com.tomyoannromain.javajenkins.StepDefinitions.theBookPriceIsEuros(int)
+
+Scenario Outline: The price of a shopping cart containing 2 Harry Potter 1,                                                    # features/PriceOfShoppingCartOf8Books.feature:4
+  Given the shopping cart contains 2 Harry Potter 1, 2 Harry Potter 2, 2 Harry Potter 3, 1 Harry Potter 4 and 1 Harry Potter 5 # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsHarryPotterHarryPotterHarryPotterHarryPotterAndHarryPotter(int,int,int,int,int,int,int,int,int,int)
+  When I ask what the price is                                                                                                 # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 51.20 euros                                                                          # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.273 s - in com.tomyoannromain.javajenkins.RunCucumberTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ java-jenkins ---
+[INFO] Building jar: /var/jenkins_home/workspace/java-jenkins_master/target/java-jenkins-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] ----------------------< org.example:java-jenkins >----------------------
+[INFO] Building java-jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.9.1.2184:sonar (default-cli) @ java-jenkins ---
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] SonarQube version: 9.2.4
+[INFO] Default locale: "en", source code encoding: "UTF-8" (analysis is platform dependent)
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=149ms
+[INFO] Server id: FD2E0B99-AX4piGa9HMlO55sVp4Sn
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=71ms
+[INFO] Load/download plugins (done) | time=136ms
+[INFO] Process project properties
+[INFO] Process project properties (done) | time=14ms
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=2ms
+[INFO] Project key: JenkinsTP
+[INFO] Base dir: /var/jenkins_home/workspace/java-jenkins_master
+[INFO] Working dir: /var/jenkins_home/workspace/java-jenkins_master/target/sonar
+[INFO] Load project settings for component key: 'JenkinsTP'
+[INFO] Load project settings for component key: 'JenkinsTP' (done) | time=19ms
+[INFO] Auto-configuring with CI 'Jenkins'
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=121ms
+[INFO] Auto-configuring with CI 'Jenkins'
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=1301ms
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 7 files indexed
+[INFO] 0 files ignored because of scm ignore settings
+[INFO] Quality profile for java: Sonar way
+[INFO] Quality profile for xml: Sonar way
+[INFO] ------------- Run sensors on module java-jenkins
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=25ms
+[INFO] Sensor JavaSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 11
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=17ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=2ms
+[INFO] Java "Main" source files AST scan
+[INFO] 3 source files to be analyzed
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=28ms
+[INFO] 3/3 source files have been analyzed
+[INFO] Java "Main" source files AST scan (done) | time=2948ms
+[INFO] Java "Test" source files AST scan
+[INFO] 3 source files to be analyzed
+[INFO] 3/3 source files have been analyzed
+[INFO] Java "Test" source files AST scan (done) | time=517ms
+[INFO] No "Generated" source files to scan.
+[INFO] Sensor JavaSensor [java] (done) | time=3945ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=7ms
+[INFO] Sensor CSS Rules [javascript]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [javascript] (done) | time=0ms
+[INFO] Sensor C# Project Type Information [csharp]
+[INFO] Sensor C# Project Type Information [csharp] (done) | time=0ms
+[INFO] Sensor C# Analysis Log [csharp]
+[INFO] Sensor C# Analysis Log [csharp] (done) | time=19ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=0ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing [/var/jenkins_home/workspace/java-jenkins_master/target/surefire-reports]
+[INFO] Sensor SurefireSensor [java] (done) | time=141ms
+[INFO] Sensor JavaXmlSensor [java]
+[INFO] 1 source file to be analyzed
+[INFO] 1/1 source file has been analyzed
+[INFO] Sensor JavaXmlSensor [java] (done) | time=253ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=18ms
+[INFO] Sensor XML Sensor [xml]
+[INFO] 1 source file to be analyzed
+[INFO] 1/1 source file has been analyzed
+[INFO] Sensor XML Sensor [xml] (done) | time=316ms
+[INFO] Sensor VB.NET Project Type Information [vbnet]
+[INFO] Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+[INFO] Sensor VB.NET Analysis Log [vbnet]
+[INFO] Sensor VB.NET Analysis Log [vbnet] (done) | time=19ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=0ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=10ms
+[INFO] Sensor Java CPD Block Indexer
+[INFO] Sensor Java CPD Block Indexer (done) | time=24ms
+[INFO] SCM Publisher SCM provider for this project is: git
+[INFO] SCM Publisher 3 source files to be analyzed
+[INFO] SCM Publisher 3/3 source files have been analyzed (done) | time=165ms
+[INFO] CPD Executor 1 file had no CPD blocks
+[INFO] CPD Executor Calculating CPD for 2 files
+[INFO] CPD Executor CPD calculation finished (done) | time=6ms
+[INFO] Analysis report generated in 98ms, dir size=154.0 kB
+[INFO] Analysis report compressed in 30ms, zip size=32.7 kB
+[INFO] Analysis report uploaded in 26ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://sonarqube:9000/dashboard?id=JenkinsTP
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://sonarqube:9000/api/ce/task?id=AX6QavPpJgQnSDLaAiri
+[INFO] Analysis total time: 8.729 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.456 s
+[INFO] Finished at: 2022-01-25T08:47:15Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4PqHLtxd1LTXEIjvUUV14isj5Zoaye80oNvwKf0Ea1FJAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZSwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfmYKm674AAAA=[0m[Pipeline] }
+[8mha:////4Ou1fv9UeIRUdz4MiyREDCgQY+jaKAwk9nyYXVl/gnsKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHaAPdtvgAAAA==[0m[Pipeline] // stage
+[8mha:////4K+h+zYgxK6MhlSzU8+YwIZsurAPAghu5RCz9nEDfvujAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUHRgQYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7T/P6g2/2CIFwgAAAA==[0m[Pipeline] stage
+[8mha:////4HyHb7DIFj0LLmJ7c7fyb3aGHQgMTn3+2fYWlUXHNbS/AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBSSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3QSQCqwgAAAA==[0m[Pipeline] { (nexus deploy)
+[8mha:////4HzB1LHMXshkcVQCuNN20mG09eT9GnRepZeyRPlobvFNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBk5Fu7e+AAAA[0m[Pipeline] sh
++ ./mvnw clean deploy
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:java-jenkins >----------------------
+[INFO] Building java-jenkins 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ java-jenkins ---
+[INFO] Deleting /var/jenkins_home/workspace/java-jenkins_master/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ java-jenkins ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/java-jenkins_master/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ java-jenkins ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/java-jenkins_master/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ java-jenkins ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ java-jenkins ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 3 source files to /var/jenkins_home/workspace/java-jenkins_master/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ java-jenkins ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.tomyoannromain.javajenkins.TestMain
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in com.tomyoannromain.javajenkins.TestMain
+[INFO] Running com.tomyoannromain.javajenkins.RunCucumberTests
+
+Scenario Outline: The shopping cart value is or is not equals to 30 ? # features/PriceOfABooksLotOfFiveBooks.feature:4
+  Given the shopping cart contains 5 differents books                 # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                        # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 30 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 25.60 ? # features/PriceOfABooksLotOfFourBooks.feature:4
+  Given the shopping cart contains 4 differents books                    # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                           # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 25.60 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 8 ? # features/PriceOfABooksLotOfOneBook.feature:4
+  Given the shopping cart contains 1 differents books                # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 8 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 21.60 ? # features/PriceOfABooksLotOfThreeBooks.feature:4
+  Given the shopping cart contains 3 differents books                    # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                           # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 21.60 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The shopping cart value is or is not equals to 15.20 ? # features/PriceOfABooksLotOfTwoBooks.feature:4
+  Given the shopping cart contains 2 differents books                    # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsDifferentsBooks(java.lang.Integer)
+  When I ask what the price is                                           # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 15.20 euros                    # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:10
+  Given the shopping cart contains 2 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 16 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:11
+  Given the shopping cart contains 3 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 24 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:12
+  Given the shopping cart contains 4 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 32 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario Outline: The price of x same books is equals to x*8 euros ? # features/PriceOfBooksLotOfSameBooks.feature:13
+  Given the shopping cart contains 5 same books                      # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsSameBooks(java.lang.Integer)
+  When I ask what the price is                                       # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 40 euros                   # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+
+Scenario: Price of a book        # features/PriceOfOneBook.feature:4
+  Given One book                 # com.tomyoannromain.javajenkins.StepDefinitions.oneBook()
+  Then The book price is 8 euros # com.tomyoannromain.javajenkins.StepDefinitions.theBookPriceIsEuros(int)
+
+Scenario Outline: The price of a shopping cart containing 2 Harry Potter 1,                                                    # features/PriceOfShoppingCartOf8Books.feature:4
+  Given the shopping cart contains 2 Harry Potter 1, 2 Harry Potter 2, 2 Harry Potter 3, 1 Harry Potter 4 and 1 Harry Potter 5 # com.tomyoannromain.javajenkins.StepDefinitions.theShoppingCartContainsHarryPotterHarryPotterHarryPotterHarryPotterAndHarryPotter(int,int,int,int,int,int,int,int,int,int)
+  When I ask what the price is                                                                                                 # com.tomyoannromain.javajenkins.StepDefinitions.iAskWhatThePriceIs()
+  Then I should be told that the price is 51.20 euros                                                                          # com.tomyoannromain.javajenkins.StepDefinitions.iShouldBeToldThatThePriceIsEuros(java.lang.Double)
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.296 s - in com.tomyoannromain.javajenkins.RunCucumberTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 25, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ java-jenkins ---
+[INFO] Building jar: /var/jenkins_home/workspace/java-jenkins_master/target/java-jenkins-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ java-jenkins ---
+[INFO] Installing /var/jenkins_home/workspace/java-jenkins_master/target/java-jenkins-1.0-SNAPSHOT.jar to /var/jenkins_home/.m2/repository/org/example/java-jenkins/1.0-SNAPSHOT/java-jenkins-1.0-SNAPSHOT.jar
+[INFO] Installing /var/jenkins_home/workspace/java-jenkins_master/pom.xml to /var/jenkins_home/.m2/repository/org/example/java-jenkins/1.0-SNAPSHOT/java-jenkins-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ java-jenkins ---
+Downloading from nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/1.0-SNAPSHOT/maven-metadata.xml
+Progress (1): 767 B                   Downloaded from nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/1.0-SNAPSHOT/maven-metadata.xml (767 B at 7.7 kB/s)
+Uploading to nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/1.0-SNAPSHOT/java-jenkins-1.0-20220125.084717-5.jar
+Progress (1): 4.1/6.5 kBProgress (1): 6.5 kB                        Uploaded to nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/1.0-SNAPSHOT/java-jenkins-1.0-20220125.084717-5.jar (6.5 kB at 100 kB/s)
+Uploading to nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/1.0-SNAPSHOT/java-jenkins-1.0-20220125.084717-5.pom
+Progress (1): 4.1/4.7 kBProgress (1): 4.7 kB                        Uploaded to nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/1.0-SNAPSHOT/java-jenkins-1.0-20220125.084717-5.pom (4.7 kB at 62 kB/s)
+Downloading from nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/maven-metadata.xml
+Progress (1): 281 B                   Downloaded from nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/maven-metadata.xml (281 B at 18 kB/s)
+Uploading to nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/1.0-SNAPSHOT/maven-metadata.xml
+Progress (1): 767 B                   Uploaded to nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/1.0-SNAPSHOT/maven-metadata.xml (767 B at 14 kB/s)
+Uploading to nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/maven-metadata.xml
+Progress (1): 281 B                   Uploaded to nexus: http://nexus3:8081/repository/maven-snapshots/org/example/java-jenkins/maven-metadata.xml (281 B at 4.2 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.185 s
+[INFO] Finished at: 2022-01-25T08:47:24Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4BgHSTZdhlJHOMwTbJPAIguixvvidB7MbusIwWiPMv8hAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN/uuxNG+AAAA[0m[Pipeline] }
+[8mha:////4DRYy7ADVOQNVxHmT8ktu6J42E+XP+9U+aW8Yr72cIz3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAOZZpSL4AAAA=[0m[Pipeline] // stage
+[8mha:////4KZEue1lq5pSOdsuDU4sw2R5brPI3Nf9Lkpz3q3aXGC2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSIgGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w+369s/vgAAAA==[0m[Pipeline] }
+[8mha:////4NXfKi8T9AzOQZlATBfTo6Oxv1n0diKIsgdqHpYJpNUjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBTQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtdu+wGECICDvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4L5fhok+WWmPo8RZqU9022zSjF92CwPa+L6PmxawK7T0AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0Do1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Ane4AQL0AAAA=[0m[Pipeline] }
+[8mha:////4GBcg00bN4cFKQLHf4QweCa7zNIPR/FhQMRn+jsC4y5xAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AI5SBOO9AAAA[0m[Pipeline] // node
+[8mha:////4JxlBcAlAhPw5uWANFEqmf0q8sU+7l+6rmtnJojJDPY/AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A8n1Uxa9AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

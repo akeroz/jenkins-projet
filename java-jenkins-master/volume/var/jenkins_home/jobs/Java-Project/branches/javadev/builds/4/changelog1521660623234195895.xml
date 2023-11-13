@@ -1,0 +1,11 @@
+commit bfbd7610d27b649e65a891ffdbaea765af5b8245
+tree fe155b684a9fdee9aed7ab2581f639a6a6266e98
+parent a63c9777d5ec784334398c98c70abe57d3463b01
+author RomainP01 <romain.pani@decathlon.com> 2022-01-18 17:26:03 +0100
+committer RomainP01 <romain.pani@decathlon.com> 2022-01-18 17:26:03 +0100
+
+    bookslot wip
+
+
+:000000 100644 0000000000000000000000000000000000000000 88be2408ba8ac0afd8d276c1322f74ec964d3c18 A	src/main/java/com/tomyoannromain/javajenkins/BooksLot.java
+:100644 100644 dc34616b2f040aa153170786cb8857bc89237ac2 d22e6eb596ea2933cfd8ef04b5799ad57ae31252 M	src/main/java/com/tomyoannromain/javajenkins/Checkout.java

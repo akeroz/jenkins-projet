@@ -1,0 +1,72 @@
+pipeline {
+  agent any
+  stages {
+    stage('check') {
+    when {
+            branch 'master'
+    }
+      parallel {
+        stage('pmd') {
+          steps {
+            sh './mvnw pmd:check'
+          }
+        }
+
+        stage('checkstyle') {
+        when {
+                    branch 'master'
+        }
+          steps {
+            sh './mvnw checkstyle:check'
+          }
+        }
+
+      }
+    }
+
+    stage('test') {
+    when {
+                branch 'master'
+    }
+      parallel {
+        stage('unit test') {
+          steps {
+            sh './mvnw -Dtest=TestMain test'
+          }
+        }
+
+        stage('cucumber test') {
+        when {
+                    branch 'master'
+        }
+          steps {
+            sh './mvnw -Dtest=RunCucumberTests test'
+          }
+        }
+
+      }
+    }
+
+    stage('sonar') {
+    when {
+                branch 'master'
+    }
+      steps {
+        sh '''./mvnw clean verify sonar:sonar \\
+  -Dsonar.projectKey=JenkinsTP \\
+  -Dsonar.host.url=http://sonarqube:9000 \\
+  -Dsonar.login=a7f4a2a8334b74aa215f39b816af97290f55026b'''
+      }
+    }
+
+    stage('nexus deploy') {
+    when {
+                branch 'master'
+    }
+      steps {
+        sh './mvnw clean deploy'
+      }
+    }
+
+  }
+}
